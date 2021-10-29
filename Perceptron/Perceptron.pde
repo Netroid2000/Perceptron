@@ -28,7 +28,7 @@ void draw(){
   background(200);
   Ejes();
   strokeWeight(1);
-  line(width/2 - width/m, 0, width/2 - width/m, height);
+  line(width/2 - width/m, 0, width/2 + width/m, height);
   
   for(int i = 0; i<points.length; i++){
     points[i].x = random(0, width) - width/2;
